@@ -1,6 +1,6 @@
 ﻿services:
     mongohost:              
-        image: mongo:7      
+        image: mongo:bionic      
         restart: always    
         container_name: parcelmongodb
         volumes:
